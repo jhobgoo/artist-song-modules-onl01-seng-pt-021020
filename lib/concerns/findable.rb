@@ -9,11 +9,5 @@ module Findable
     end
     
   end
-  
-  module InstanceMethods
-    
-    def all
-      @@all << self
-    end
 
 end
