@@ -4,7 +4,7 @@ module Findable
     
     def find_by_name(name)
       self.all.detect each do |name|
-        artist.name == name
+        name.name
       end
     end
     
